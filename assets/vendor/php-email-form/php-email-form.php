@@ -59,7 +59,7 @@ class PHP_Email_Form {
     $subject = filter_var( $this->subject, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
     $message = nl2br($this->message);
 
-    if( ! $to || $to == 'contact@example.com') 
+    if( ! $to || $to == 'anthony.di-dio@pm.me') 
       $this->error .= $this->error_msg['invalid_to_email'] . '<br>';
 
     if( ! $from_name ) 
@@ -11577,5 +11577,3 @@ class SMTP_Legacy
         return $this->last_smtp_transaction_id;
     }
 }
-
-?>

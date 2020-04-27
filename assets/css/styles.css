@@ -44,12 +44,47 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.qr {
-  margin-left: 250px;
-  width: 8%;
-  height: 6%;
+/*--------------------------------------------------------------
+# QR-CODE
+--------------------------------------------------------------*/
+#code-qr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
+.qr-diplome {
+  width: 5%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.qr {
+  width: 5%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+/*--------------------------------------------------------------
+# QR-CODE
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1157,11 +1192,27 @@ section {
   color: #eaebf0;
 }
 
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# responsive
+--------------------------------------------------------------*/
 @media (max-width: 1199px) {
   #footer {
     position: static;
     width: auto;
     padding-right: 20px 15px;
   }
+  .qr-diplome {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
 }
+
+/*--------------------------------------------------------------
+# responsive
+--------------------------------------------------------------*/
 /*# sourceMappingURL=styles.css.map */

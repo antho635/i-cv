@@ -985,6 +985,29 @@ section {
     background: #37b3ed;
 }
 
+#container-contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: auto;
+}
+
+#info-contact {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+#box-titre-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
 @-webkit-keyframes animate-loading {
     0% {
         transform: rotate(0deg);

@@ -37,6 +37,7 @@ a:hover {
 
 .map {
     width: 100%;
+    border: 0;
 }
 
 h1,
@@ -48,11 +49,13 @@ h6 {
     font-family: "Raleway", sans-serif;
 }
 
-.qr{
+.qr {
     margin-left: 250px;
-    width:8%;
-    height:6%;
+    width: 8%;
+    height: 6%;
 }
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/

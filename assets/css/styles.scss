@@ -317,7 +317,7 @@ h6 {
     font-size: 64px;
     font-weight: 700;
     line-height: 56px;
-    color: #fff;
+    color: #494949;
 }
 
 #hero p {
@@ -1242,3 +1242,47 @@ section {
 /*--------------------------------------------------------------
 # responsive
 --------------------------------------------------------------*/
+
+/*titre craké*/
+.wrapper {
+    background: transparent;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 100%;
+  }
+  
+  .cracked {
+    --crack-offset: 66%;
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: 800;
+    position: relative;
+  }
+  
+  .cracked:before, .cracked:after {
+    content: attr(data-name);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    transition: 0.19s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .cracked:before {
+    clip-path: polygon(var(--crack-offset) 0, 0 0, 0 100%, calc(var(--crack-offset) - 20%) 100%);
+  }
+  
+  .cracked:after {
+    clip-path: polygon(var(--crack-offset) 0, 100% 0, 100% 100%, calc(var(--crack-offset) - 20%) 100%);
+  }
+  
+  .cracked:hover:before {
+    transform: translate(-15px, -15px) rotate(-15deg);
+  }
+  
+  .cracked:hover:after {
+    transform: translate(6px, 6px) rotate(6deg);
+  }
+  

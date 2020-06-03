@@ -11376,11 +11376,11 @@ h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #494949;
+  color: #90caf9;
+  margin: auto;
 }
 
 #hero p {
@@ -12366,7 +12366,8 @@ section {
   position: relative;
 }
 
-.cracked:before, .cracked:after {
+.cracked:before,
+.cracked:after {
   content: attr(data-name);
   position: absolute;
   top: 0;
@@ -12388,12 +12389,29 @@ section {
 }
 
 .cracked:hover:before {
-  -webkit-transform: translate(-15px, -15px) rotate(-15deg);
-          transform: translate(-15px, -15px) rotate(-15deg);
+  -webkit-transform: translate(-16px, -16px) rotate(45deg);
+          transform: translate(-16px, -16px) rotate(45deg);
 }
 
 .cracked:hover:after {
-  -webkit-transform: translate(6px, 6px) rotate(6deg);
-          transform: translate(6px, 6px) rotate(6deg);
+  -webkit-transform: translate(6px, 6px) rotate(-45deg);
+          transform: translate(6px, 6px) rotate(-45deg);
+}
+
+@media screen and (max-width: 700px) {
+  .cracked:hover:before {
+    -webkit-transform: none;
+            transform: none;
+    color: white;
+  }
+  .cracked:hover:after {
+    -webkit-transform: none;
+            transform: none;
+    color: #fff;
+  }
+  #hero h1 {
+    font-size: 2.3em;
+    margin: auto;
+  }
 }
 /*# sourceMappingURL=layout.css.map */

@@ -29,55 +29,118 @@
 </head>
 
 <body>
-    <div id="p4">
-        <!-- ======= NAVIGUATION MOBILE ======= -->
-        <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-        <!-- ======= HEADER ======= -->
-        <header id="header">
-            <div class="d-flex flex-column">
+    <!-- ======= NAVIGUATION MOBILE ======= -->
+    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-                <div class="profile">
-                    <img src="assets/img/profile-img.jpg" alt="photo de profile" class="img-fluid rounded-circle">
-                    <h1 class="text-light" id="titre1"><a href="index.html">Anthony DI DIO</a></h1>
-                    <div class="social-links mt-3 text-center">
-                        <a href="https://github.com/antho635" class="github" alt="GITHUB,QR-code en bas"><i
+    <!-- ======= HEADER ======= -->
+    <header id="header">
+        <div class="d-flex flex-column">
+
+            <div class="profile">
+                <img src="assets/img/profile-img.jpg" alt="photo de profile" class="img-fluid rounded-circle">
+                <h1 class="text-light" id="titre1"><a href="index.html">Anthony DI DIO</a></h1>
+                <div class="social-links mt-3 text-center">
+                    <a href="https://github.com/antho635" class="github" alt="GITHUB,QR-code en bas"><i
                             class="icofont-github"></i></a>
-                        <a href="https://www.linkedin.com/in/anthony-di-dio-46090a153/" class="linkedin" alt="LINKEDIN,QR-code en bas"><i class="bx bxl-linkedin"></i></a>
-                    </div>
+                    <a href="https://www.linkedin.com/in/anthony-di-dio-46090a153/" class="linkedin" alt="LINKEDIN,QR-code en bas"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Acceuil</span></a></li>
+                    <li><a href="#about"><i class="bx bx-user"></i> <span>À propos</span></a></li>
+                    <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Curriculum Vitae</span></a></li>
+
+                    <li><a href="#services"><i class="bx bx-server"></i> Mon environnement</a></li>
+                    <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+
+                </ul>
+            </nav>
+            <!-- .nav-menu -->
+            <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+        </div>
+    </header>
+    <!-- HEADER -->
+
+    <main id="main">
+
+        <!-- ======= Breadcrumbs ======= -->
+        <section id="breadcrumbs" class="breadcrumbs">
+            <div class="container">
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2>Portfoio Details</h2>
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li>Portfoio Details</li>
+                    </ol>
                 </div>
 
-                <nav class="nav-menu">
-                    <ul>
-                        <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Acceuil</span></a></li>
-                        <li><a href="#about"><i class="bx bx-user"></i> <span>À propos</span></a></li>
-                        <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Curriculum Vitae</span></a></li>
+            </div>
+        </section>
+        <!-- End Breadcrumbs -->
 
-                        <li><a href="#services"><i class="bx bx-server"></i> Mon environnement</a></li>
-                        <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+        <!-- ======= Portfolio Details Section ======= -->
+        <section id="agence" class="portfolio-details">
+            <div class="container">
 
-                    </ul>
-                </nav>
-                <!-- .nav-menu -->
-                <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+                <div class="portfolio-details-container">
+
+                    <div class="owl-carousel portfolio-details-carousel">
+                        <img src="assets/img/portfolio/eco.png" class="img-fluid" alt="">
+                        <img src="assets/img/portfolio/agence.png" class="img-fluid" alt="">
+                        <img src="assets/img/portfolio/restau.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="portfolio-info">
+                        <h3>Project information</h3>
+                        <ul>
+                            <li><strong>Category</strong>: Web design</li>
+                            <li><strong>Client</strong>: ASU Company</li>
+                            <li><strong>Project date</strong>: 01 March, 2020</li>
+                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="portfolio-description">
+                    <h2>This is an example of portfolio detail</h2>
+                    <p>
+                        Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur
+                        dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                    </p>
+                </div>
 
             </div>
-        </header>
-        <!-- HEADER -->
+        </section>
+        <!-- End Portfolio Details Section -->
 
+    </main>
+    <!-- End #main -->
 
-    </div>
-    <!-- ======= FOOTER ======= -->
+    <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong><span>Antho-webdesign</span></strong>
+                &copy; Copyright <strong><span>iPortfolio</span></strong>
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
         </div>
     </footer>
-    <!-- FOOTER -->
+    <!-- End  Footer -->
 
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
     <!-- Vendor JS Files -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -90,8 +153,10 @@
     <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
     <script src="assets/vendor/typed.js/typed.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
+
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>

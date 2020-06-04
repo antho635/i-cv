@@ -156,3 +156,16 @@ html {
         background-image: url("img/ohmyfood.png");
     }
 }
+
+@media screen and (max-width:700px) {
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+        border: 0 none;
+        position: relative;
+        width: 100%;
+    }
+}

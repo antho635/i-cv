@@ -9,12 +9,136 @@
 }
 
 html {
-    background: #000;
     box-sizing: border-box;
     font-size: 1rem;
-    color: #000;
+    color: #fff;
     width: 100%;
     margin: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+
+/* Desktop Navigation */
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu>ul>li {
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-menu a {
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.nav-menu a i {
+    font-size: 24px;
+    padding-right: 8px;
+    color: #6f7180;
+}
+
+.nav-menu a:hover,
+.nav-menu .active>a,
+.nav-menu li:hover>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-menu a:hover i,
+.nav-menu .active>a i,
+.nav-menu li:hover>a i {
+    color: #149ddd;
+}
+
+
+/* Mobile Navigation */
+
+.mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 1;
+    cursor: pointer;
+    text-align: right;
+}
+
+.mobile-nav-toggle i {
+    color: #149ddd;
+}
+
+.mobile-nav-active {
+    overflow: hidden;
+}
+
+.mobile-nav-active #header {
+    left: 0;
+}
+
+.mobile-nav-active .mobile-nav-toggle i {
+    color: #fff;
+}
+
+
+/*====== end nav =======*/
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    right: 15px;
+    bottom: 15px;
+    background: #149ddd;
+    color: #fff;
+    transition: display 0.5s ease-in-out;
+    z-index: 99999;
+}
+
+.back-to-top i {
+    font-size: 24px;
+    position: absolute;
+    top: 7px;
+    left: 8px;
+}
+
+.back-to-top:hover {
+    color: #fff;
+    background: #2eafec;
+    transition: background 0.2s ease-in-out;
 }
 
 @media screen and (min-width: 700px) {
@@ -23,7 +147,7 @@ html {
         flex-wrap: wrap;
     }
     figure {
-        background: #eee;
+        background: black;
         width: calc( 50% + 1px);
         height: 100vh;
         margin: 0 auto 10vh 0;
@@ -47,7 +171,7 @@ html {
         border: none;
     }
     section {
-        background: #e5e5e5;
+        background: #bdbdbd;
         width: calc(50% + 1px);
         height: 100vh;
         margin: 0 0 10vh auto;
@@ -152,12 +276,12 @@ html {
     a:focus {
         -webkit-text-stroke: 1px #999;
     }
-    .background {
-        background-image: url("img/ohmyfood.png");
-    }
 }
 
 @media screen and (max-width:700px) {
+    html {
+        background-color: #fff;
+    }
     *,
     *:before,
     *:after {
@@ -167,5 +291,11 @@ html {
         border: 0 none;
         position: relative;
         width: 100%;
+    }
+    img {
+        width: 80%;
+        justify-content: center;
+        display: flex;
+        margin: auto;
     }
 }

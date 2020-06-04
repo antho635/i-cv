@@ -73,43 +73,6 @@ html {
 }
 
 
-/* Mobile Navigation */
-
-.mobile-nav-toggle {
-    position: fixed;
-    right: 15px;
-    top: 15px;
-    z-index: 9998;
-    border: 0;
-    background: none;
-    font-size: 24px;
-    transition: all 0.4s;
-    outline: none !important;
-    line-height: 1;
-    cursor: pointer;
-    text-align: right;
-}
-
-.mobile-nav-toggle i {
-    color: #149ddd;
-}
-
-.mobile-nav-active {
-    overflow: hidden;
-}
-
-.mobile-nav-active #header {
-    left: 0;
-}
-
-.mobile-nav-active .mobile-nav-toggle i {
-    color: #fff;
-}
-
-
-/*====== end nav =======*/
-
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -142,6 +105,12 @@ html {
 }
 
 @media screen and (min-width: 700px) {
+    html {
+        font-family: sans-serif;
+        line-height: 1.15;
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
     body>article {
         display: flex;
         flex-wrap: wrap;
@@ -276,11 +245,38 @@ html {
     a:focus {
         -webkit-text-stroke: 1px #999;
     }
+    .mobile-nav-toggle {
+        position: fixed;
+        right: 15px;
+        top: 15px;
+        z-index: 9998;
+        border: 0;
+        background: none;
+        font-size: 24px;
+        transition: all 0.4s;
+        outline: none !important;
+        line-height: 1;
+        cursor: pointer;
+        text-align: right;
+    }
+    .mobile-nav-toggle i {
+        color: #149ddd;
+    }
+    .mobile-nav-active {
+        overflow: hidden;
+    }
+    .mobile-nav-active #header {
+        left: 0;
+    }
+    .mobile-nav-active .mobile-nav-toggle i {
+        color: #fff;
+    }
 }
 
-@media screen and (max-width:700px) {
-    html {
-        background-color: #fff;
+@media screen and (max-width:699px) {
+    html,
+    body {
+        background-color: #e0e0e0;
     }
     *,
     *:before,
@@ -293,9 +289,46 @@ html {
         width: 100%;
     }
     img {
-        width: 80%;
+        width: 95%;
         justify-content: center;
         display: flex;
         margin: auto;
+        border: solid 1px #aeaeae;
+    }
+    .nav-menu * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-menu a {
+        display: flex;
+        align-items: baseline;
+        color: #a8a9b4;
+        padding: 12px 15px;
+        margin-bottom: 8px;
+        transition: 0.3s;
+        font-size: 15px;
+    }
+    article,
+    aside,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    main,
+    nav,
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        justify-content: center;
+        margin: auto;
+        padding: 0;
+    }
+    #portfolio {
+        margin-top: 90px;
     }
 }

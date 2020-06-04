@@ -115,6 +115,9 @@ html {
         display: flex;
         flex-wrap: wrap;
     }
+    header {
+        display: none;
+    }
     figure {
         background: black;
         width: calc( 50% + 1px);

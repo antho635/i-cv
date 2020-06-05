@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.certifoc {
+  background-color: #18222d;
+}
+
 .grid {
   width: 100%;
   max-width: 60rem;
@@ -27,7 +31,14 @@
   transform: rotateX(45deg) rotateZ(45deg);
   -webkit-perspective: 1000px;
   perspective: 1000px;
-  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: auto;
 }
 
 .image-grid .tile-link:hover .tile-img {
@@ -123,6 +134,13 @@
 .tile-link:hover .tile-img10 {
   -webkit-box-shadow: 5px 5px rgba(4, 140, 231, 0.4), 10px 10px rgba(4, 140, 231, 0.3), 15px 15px rgba(4, 140, 231, 0.2), 20px 20px rgba(4, 140, 231, 0.1), 25px 25px rgba(4, 140, 231, 0.05);
           box-shadow: 5px 5px rgba(4, 140, 231, 0.4), 10px 10px rgba(4, 140, 231, 0.3), 15px 15px rgba(4, 140, 231, 0.2), 20px 20px rgba(4, 140, 231, 0.1), 25px 25px rgba(4, 140, 231, 0.05);
+}
+
+@media screen and (max-width: 500px) {
+  .image-grid {
+    -webkit-transform: none;
+            transform: none;
+  }
 }
 
 /*!

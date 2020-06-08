@@ -132,6 +132,10 @@ html {
   header {
     display: none;
   }
+  .retour {
+    text-align: center;
+    margin: 20px auto;
+  }
   figure {
     background: black;
     width: calc( 50% + 1px);

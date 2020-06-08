@@ -327,6 +327,7 @@ html {
     border: 0 none;
     position: relative;
     width: 100%;
+    text-align: center;
   }
   img {
     width: 95%;
@@ -350,6 +351,7 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: auto;
   }
   .nav-menu a {
     display: -webkit-box;
@@ -382,11 +384,10 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 95%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: 30px auto;
+    margin: 10px auto;
     padding: 0;
   }
   #portfolio {

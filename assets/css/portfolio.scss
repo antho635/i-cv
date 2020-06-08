@@ -290,6 +290,7 @@ html {
         border: 0 none;
         position: relative;
         width: 100%;
+        text-align: center;
     }
     img {
         width: 95%;
@@ -304,6 +305,7 @@ html {
         list-style: none;
         display: flex;
         flex-direction: column;
+        width: auto;
     }
     .nav-menu a {
         display: flex;
@@ -326,9 +328,8 @@ html {
     section {
         display: flex;
         flex-direction: column;
-        width: 95%;
         justify-content: center;
-        margin: 30px auto;
+        margin: 10px auto;
         padding: 0;
     }
     #portfolio {

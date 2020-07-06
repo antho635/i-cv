@@ -11261,7 +11261,7 @@ h6 {
 # QR-CODE
 --------------------------------------------------------------*/
 /* Élément | http://127.0.0.1:5501/index.html */
-#about > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+#logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11271,7 +11271,7 @@ h6 {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  margin: auto;
+  margin: 40px auto;
 }
 
 /*--------------------------------------------------------------

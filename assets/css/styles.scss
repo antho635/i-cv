@@ -60,12 +60,12 @@
 --------------------------------------------------------------*/
     /* Élément | http://127.0.0.1:5501/index.html */
     
-    #about>div:nth-child(1)>div:nth-child(2)>div:nth-child(1) {
+    #logo {
         display: flex;
         width: auto;
         justify-content: center;
         align-content: center;
-        margin: auto;
+        margin: 40px auto;
     }
     /*--------------------------------------------------------------
 # QR-CODE

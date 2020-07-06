@@ -11260,38 +11260,17 @@ h6 {
 /*--------------------------------------------------------------
 # QR-CODE
 --------------------------------------------------------------*/
-#code-qr {
+/* Élément | http://127.0.0.1:5501/index.html */
+#about > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  padding: 10px;
-  height: auto;
+  width: auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.qr-diplome {
-  width: 5%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-}
-
-.qr {
-  width: 5%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   margin: auto;
 }
 

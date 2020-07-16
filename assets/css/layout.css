@@ -12442,10 +12442,6 @@ section {
   background: #040b14;
 }
 
-#footer .copyright {
-  text-align: center;
-}
-
 #footer .credits {
   padding-top: 5px;
   text-align: center;
@@ -12460,7 +12456,6 @@ section {
   position: fixed;
   left: 0;
   bottom: 0;
-  /*! width: 300px; */
   z-index: 9999;
   background: #040b14;
   display: -webkit-box;
@@ -12470,6 +12465,14 @@ section {
       -ms-flex-pack: center;
           justify-content: center;
   width: 20%;
+}
+
+.copyright {
+  bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
 }
 
 /*--------------------------------------------------------------

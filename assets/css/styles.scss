@@ -1158,10 +1158,6 @@
         background: #040b14;
     }
     
-    #footer .copyright {
-        text-align: center;
-    }
-    
     #footer .credits {
         padding-top: 5px;
         text-align: center;
@@ -1176,12 +1172,17 @@
         position: fixed;
         left: 0;
         bottom: 0;
-        /*! width: 300px; */
         z-index: 9999;
         background: #040b14;
         display: flex;
         justify-content: center;
         width: 20%;
+    }
+    
+    .copyright {
+        bottom: 10px;
+        display: flex;
+        position: fixed;
     }
     /*--------------------------------------------------------------
 # Footer

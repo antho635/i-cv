@@ -83,38 +83,6 @@ html {
   color: #149ddd;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  display: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  right: 15px;
-  bottom: 15px;
-  background: #149ddd;
-  color: #fff;
-  -webkit-transition: display 0.5s ease-in-out;
-  transition: display 0.5s ease-in-out;
-  z-index: 99999;
-}
-
-.back-to-top i {
-  font-size: 24px;
-  position: absolute;
-  top: 7px;
-  left: 8px;
-}
-
-.back-to-top:hover {
-  color: #fff;
-  background: #2eafec;
-  -webkit-transition: background 0.2s ease-in-out;
-  transition: background 0.2s ease-in-out;
-}
-
 @media screen and (min-width: 700px) {
   html {
     font-family: sans-serif;
@@ -129,8 +97,12 @@ html {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  header {
+  #head-portfolio {
     display: none;
+  }
+  #retour-a-portfolio > h1:nth-child(1) {
+    margin: 20px auto;
+    font-size: 1.5em;
   }
   .retour {
     text-align: center;
@@ -371,6 +343,10 @@ html {
     transition: 0.3s;
     font-size: 15px;
   }
+  .header {
+    width: auto;
+    margin: 0;
+  }
   article,
   aside,
   figcaption,
@@ -396,6 +372,9 @@ html {
   }
   #portfolio {
     margin-top: 90px;
+  }
+  #retour-a-portfolio > h1:nth-child(1) {
+    display: none;
   }
 }
 /*# sourceMappingURL=portfolio.css.map */

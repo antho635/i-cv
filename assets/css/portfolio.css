@@ -138,7 +138,7 @@ html {
   }
   figure {
     background: black;
-    width: calc( 50% + 1px);
+    width: calc(50% + 1px);
     height: 100vh;
     margin: 0 auto 10vh 0;
     position: -webkit-sticky;

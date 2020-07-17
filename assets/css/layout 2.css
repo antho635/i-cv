@@ -11068,12 +11068,12 @@ body {
   padding: 0;
 }
 
-#header {
+.header {
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
-  width: 20%;
+  width: auto;
   -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
@@ -11161,8 +11161,15 @@ h6 {
   margin: 40px auto;
 }
 
-/*--------------------------------------------------------------
-end logo gif --------------------------------------------------------------*/
+#logo-gif {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+/*------------------ end logo gif --------------------------------------*/
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -11198,14 +11205,14 @@ end logo gif --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-#header .profile img {
+.header .profile img {
   margin: 15px auto;
   display: block;
   width: 120px;
   border: 8px solid #2c2f3f;
 }
 
-#header .profile h1 {
+.header .profile h1 {
   font-size: 24px;
   margin: 0;
   padding: 0;
@@ -11214,13 +11221,13 @@ end logo gif --------------------------------------------------------------*/
   font-family: "Poppins", sans-serif;
 }
 
-#header .profile h1 a,
-#header .profile h1 a:hover {
+.header .profile h1 a,
+.header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
 
-#header .profile .social-links a {
+.header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #212431;
@@ -11236,7 +11243,7 @@ end logo gif --------------------------------------------------------------*/
   transition: 0.3s;
 }
 
-#header .profile .social-links a:hover {
+.header .profile .social-links a:hover {
   background: #149ddd;
   color: #fff;
   text-decoration: none;
@@ -11247,7 +11254,7 @@ end logo gif --------------------------------------------------------------*/
 }
 
 @media (max-width: 1199px) {
-  #header {
+  .header {
     left: -300px;
   }
   #main {
@@ -11333,7 +11340,7 @@ end logo gif --------------------------------------------------------------*/
   overflow: hidden;
 }
 
-.mobile-nav-active #header {
+.mobile-nav-active .header {
   left: 0;
 }
 
@@ -12291,10 +12298,6 @@ section {
   background: #040b14;
 }
 
-#footer .copyright {
-  text-align: center;
-}
-
 #footer .credits {
   padding-top: 5px;
   text-align: center;
@@ -12309,7 +12312,6 @@ section {
   position: fixed;
   left: 0;
   bottom: 0;
-  /*! width: 300px; */
   z-index: 9999;
   background: #040b14;
   display: -webkit-box;
@@ -12319,6 +12321,14 @@ section {
       -ms-flex-pack: center;
           justify-content: center;
   width: 20%;
+}
+
+.copyright {
+  bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
 }
 
 /*--------------------------------------------------------------
@@ -12428,6 +12438,9 @@ section {
   #hero h1 {
     font-size: 2.3em;
     margin: auto;
+  }
+  .header {
+    width: auto;
   }
 }
 /*# sourceMappingURL=layout 2.css.map */

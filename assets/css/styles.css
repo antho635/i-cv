@@ -339,18 +339,17 @@ h6 {
 }
 
 #hero h1 {
-  font-size: 64px;
+  font-size: 3.5em;
   font-weight: 700;
   line-height: 56px;
   color: #90caf9;
   margin: auto;
+  font-family: 'Dancing Script', cursive;
 }
 
 #hero p {
   color: #fff;
   margin-bottom: 50px;
-  font-size: 26px;
-  font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
@@ -358,6 +357,11 @@ h6 {
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
+}
+
+#hero p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.8em;
 }
 
 @media (min-width: 1024px) {

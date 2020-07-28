@@ -11224,7 +11224,7 @@ body {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #37474f;
   overflow-y: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11233,6 +11233,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border-radius: 0 40px 40px 0;
 }
 
 a {
@@ -11350,9 +11351,9 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 .header .profile img {
-  margin: 15px auto;
+  margin: 80px auto;
   display: block;
-  width: 120px;
+  width: 150px;
   border: 3px solid #2c2f3f;
 }
 
@@ -11403,6 +11404,13 @@ h6 {
   }
   #main {
     margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header .profile img {
+    margin: 30px auto;
+    width: 120px;
   }
 }
 
@@ -11488,17 +11496,13 @@ h6 {
   left: 0;
 }
 
-.mobile-nav-active .mobile-nav-toggle i {
-  color: #111;
-}
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("https://img5.goodfon.com/wallpaper/nbig/d/54/dvoichnyi-kod-otsifrovka-nol-edinitsa.jpg") top center;
   background-size: cover;
 }
 

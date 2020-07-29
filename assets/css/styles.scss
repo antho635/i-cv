@@ -336,13 +336,15 @@
     
     @media (max-width: 768px) {
         #hero h1 {
-            font-size: 28px;
-            line-height: 36px;
+            font-size: 3.5em;
         }
         #hero h2 {
             font-size: 18px;
             line-height: 24px;
             margin-bottom: 30px;
+        }
+        #hero P {
+            font-size: 2em;
         }
     }
     /*--------------------------------------------------------------
@@ -500,6 +502,79 @@
     }
     /*--------------------------------------------------------------
 # Resume
+--------------------------------------------------------------*/
+    /*--------------------------------------------------------------
+ certif
+--------------------------------------------------------------*/
+    
+    #container-certif {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        height: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto auto auto 300px;
+    }
+    
+    .images-certifications {
+        display: flex;
+        width: 60%;
+        margin: 50px auto;
+    }
+    
+    .gradient-border {
+        --borderWidth: 3px;
+        background: #1D1F20;
+        position: sticky;
+        border-radius: var(--borderWidth);
+    }
+    
+    .gradient-border:after {
+        content: '';
+        position: absolute;
+        top: calc(-1 * var(--borderWidth));
+        left: calc(-1 * var(--borderWidth));
+        height: calc(100% + var(--borderWidth) * 2);
+        width: calc(100% + var(--borderWidth) * 2);
+        background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+        border-radius: calc(2 * var(--borderWidth));
+        z-index: -1;
+        animation: animatedgradient 3s ease alternate infinite;
+        background-size: 300% 300%;
+    }
+    
+    @keyframes animatedgradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    .gradient-border {
+        display: flex;
+        width: 40%;
+        margin: 50px;
+    }
+    
+    @media screen and(max-width: 1100px) {
+        .gradient-border {
+            width: 90%;
+            margin: 10px;
+        }
+        #container-certif {
+            width: 80%;
+            margin: auto;
+            flex-direction: column;
+        }
+    }
+    /*--------------------------------------------------------------
+ fin certif
 --------------------------------------------------------------*/
     
     .resume .resume-title {

@@ -32,7 +32,7 @@ body {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 20%;
+  width: 300px;
   -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
@@ -324,7 +324,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("https://img5.goodfon.com/wallpaper/nbig/d/54/dvoichnyi-kod-otsifrovka-nol-edinitsa.jpg");
+  background: url("../img/fond-index.png") top center;
   background-size: cover;
 }
 
@@ -622,7 +622,6 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 40%;
   margin: 50px auto;
 }
 

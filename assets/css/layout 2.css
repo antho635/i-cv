@@ -11172,7 +11172,7 @@ h6 {
 }
 
 #logo-gif {
-  width: auto;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

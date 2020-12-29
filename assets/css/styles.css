@@ -71,6 +71,8 @@ a:hover {
           justify-content: center;
   margin: auto;
   font-size: 2em;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 .social-links {
@@ -886,10 +888,6 @@ section {
   font-size: 14px;
 }
 
-#html {
-  background-image: url("../img/iconesComp/html.png");
-}
-
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -990,10 +988,6 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact {
-  padding-bottom: 130px;
-}
-
 .contact .info {
   padding: 100px 50px;
   background: #fff;

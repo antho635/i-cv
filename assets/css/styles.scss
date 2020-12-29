@@ -55,6 +55,8 @@
         justify-content: center;
         margin: auto;
         font-size: 2em;
+        font-style: italic;
+        font-weight: lighter;
     }
     
     .social-links {
@@ -798,10 +800,6 @@
         line-height: 24px;
         font-size: 14px;
     }
-    
-    #html {
-        background-image: url("../img/iconesComp/html.png")
-    }
     /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -900,10 +898,6 @@
     /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-    
-    .contact {
-        padding-bottom: 130px;
-    }
     
     .contact .info {
         padding: 100px 50px;

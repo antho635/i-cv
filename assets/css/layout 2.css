@@ -11177,6 +11177,7 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   margin: auto;
+  border-radius: 10px;
 }
 
 /*------------------ end logo gif --------------------------------------*/
@@ -11270,13 +11271,6 @@ h6 {
   }
 }
 
-@media screen and (max-width: 650px) {
-  .header .profile img {
-    margin: 30px auto;
-    width: 120px;
-  }
-}
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -11308,7 +11302,7 @@ h6 {
   margin-bottom: 8px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 1.1em;
 }
 
 .nav-menu a i {
@@ -11328,6 +11322,19 @@ h6 {
 .nav-menu .active > a i,
 .nav-menu li:hover > a i {
   color: #149ddd;
+}
+
+@media screen and (max-width: 650px) {
+  .header .profile img {
+    margin: 30px auto;
+    width: 120px;
+  }
+  #titre1 {
+    font-size: 1.2em;
+  }
+  .nav-menu a {
+    font-size: 1em;
+  }
 }
 
 /* Mobile Navigation */
@@ -12025,7 +12032,7 @@ section {
 }
 
 .contact .info {
-  padding: 30px;
+  padding: 100px 50px;
   background: #fff;
   width: 100%;
   -webkit-box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -12478,6 +12485,9 @@ section {
             justify-content: center;
     margin: auto;
   }
+  .contact .info {
+    padding: 100px 50px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -12552,6 +12562,7 @@ section {
   }
   .header {
     width: auto;
+    padding: 15px;
   }
 }
 /*# sourceMappingURL=layout 2.css.map */

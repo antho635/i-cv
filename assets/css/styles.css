@@ -1523,5 +1523,13 @@ section {
     width: auto;
     padding: 15px;
   }
+  .gradient-border {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 50px auto;
+    height: 100%;
+    max-height: 250px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -445,6 +445,20 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Sections footer
+--------------------------------------------------------------*/
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
@@ -482,6 +496,21 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+}
+
+li {
+  font-size: 1.2em;
+}
+
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  font-size: 1.3em;
 }
 
 /*--------------------------------------------------------------
@@ -1542,6 +1571,20 @@ section {
 .cracked:hover:after {
   -webkit-transform: translate(6px, 6px) rotate(-45deg);
           transform: translate(6px, 6px) rotate(-45deg);
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.3em;
+  line-height: 1.8;
+}
+
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+  margin: 25px auto;
 }
 
 @media screen and (max-width: 700px) {

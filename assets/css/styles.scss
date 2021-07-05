@@ -375,6 +375,15 @@
         }
     }
     
+    @media (max-width: 968px) {
+        #hero {
+            height: auto
+        }
+        #boxcertif {
+            margin-top:15%;
+        }
+    }
+    
     @media (max-width: 768px) {
         #hero h1 {
             font-size: 3.5em;

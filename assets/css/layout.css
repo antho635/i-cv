@@ -9,10 +9,6 @@
   margin: 0;
 }
 
-body {
-  font-family: 'Raleway', sans-serif;
-}
-
 #page0 {
   position: relative;
   height: 100vh;
@@ -11612,6 +11608,15 @@ h6 {
   }
   .font-italic {
     margin-bottom: 75px;
+  }
+}
+
+@media (max-width: 968px) {
+  #hero {
+    height: auto;
+  }
+  #boxcertif {
+    margin-top: 15%;
   }
 }
 

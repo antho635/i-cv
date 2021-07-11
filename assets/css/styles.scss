@@ -26,7 +26,7 @@
         top: 0;
         left: 0;
         bottom: 0;
-        width: 20%;
+        width: 25%;
         -webkit-transition: all ease-in-out 0.5s;
         transition: all ease-in-out 0.5s;
         z-index: 9997;
@@ -87,7 +87,7 @@
     #container-contact {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 85%;
         justify-content: center;
         margin: auto;
     }
@@ -200,7 +200,7 @@
     }
     
     #main {
-        margin-left: 300px;
+        margin-left: 400px;
     }
     
     .flex-column {
@@ -247,7 +247,7 @@
     .nav-menu a {
         display: flex;
         align-items: center;
-        color: #a8a9b4;
+        color: #149ddd;
         padding: 12px 15px;
         margin-bottom: 8px;
         transition: 0.3s;
@@ -257,20 +257,20 @@
     .nav-menu a i {
         font-size: 24px;
         padding-right: 8px;
-        color: #6f7180;
+        color: #149ddd;
     }
     
     .nav-menu a:hover,
     .nav-menu .active>a,
     .nav-menu li:hover>a {
         text-decoration: none;
-        color: #fff;
+        color: gray;
     }
     
     .nav-menu a:hover i,
     .nav-menu .active>a i,
     .nav-menu li:hover>a i {
-        color: #149ddd;
+        color: gray;
     }
     
     @media screen and (max-width:650px) {
@@ -344,7 +344,7 @@
     #hero h1 {
         font-size: 4.5em;
         font-weight: 700;
-        color: #90caf9;
+        color: #149ddd;
         margin: auto;
         font-family: 'Dancing Script', cursive;
     }
@@ -463,7 +463,14 @@
         font-size: 1.3em;
     }
     /*--------------------------------------------------------------
-# About
+                    page certif openclassrooms
+--------------------------------------------------------------*/
+    
+    .container-fluid {
+        margin-top: 5%;
+    }
+    /*--------------------------------------------------------------
+                    # About
 --------------------------------------------------------------*/
     
     .about .content h3 {

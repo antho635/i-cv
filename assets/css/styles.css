@@ -538,7 +538,7 @@ li {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #149ddd;
+  color: #424242;
 }
 
 .about .content p:last-child {
@@ -1580,7 +1580,7 @@ li {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 1.3em;
+  font-size: 1em;
   line-height: 1.8;
 }
 

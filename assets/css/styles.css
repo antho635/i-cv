@@ -3,6 +3,7 @@
 # General
 --------------------------------------------------------------*/
 body {
+  background-color: #eee;
   font-family: "Open Sans", sans-serif;
   color: #272829;
   display: -webkit-box;
@@ -464,7 +465,22 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #ccc;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .section-bg {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section-bg {
+    margin: 0 15px;
+    border-radius: 15px;
+  }
 }
 
 .section-title {
@@ -1273,6 +1289,10 @@ li {
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto;
+}
+
+#contact {
+  background: #eee;
 }
 
 @-webkit-keyframes animate-loading {

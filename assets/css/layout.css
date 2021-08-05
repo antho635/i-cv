@@ -11482,7 +11482,7 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #149ddd;
+  color: #00b8d4;
   padding: 12px 15px;
   margin-bottom: 8px;
   -webkit-transition: 0.3s;
@@ -11493,7 +11493,7 @@ h6 {
 .nav-menu a i {
   font-size: 24px;
   padding-right: 8px;
-  color: #149ddd;
+  color: #00b8d4;
 }
 
 .nav-menu a:hover,
@@ -12128,7 +12128,7 @@ li {
           justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #00b8d4;
   border-radius: 50%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -12829,5 +12829,31 @@ p {
     height: 100%;
     max-height: 250px;
   }
+}
+
+/**
+    *
+    * rajout
+    *
+    **/
+/* layout.css | http://127.0.0.1:5501/assets/css/layout.css */
+.services .icon {
+  /* background: #149ddd; */
+  background: #00b8d4;
+}
+
+.back-to-top:hover {
+  /* background: #2eafec; */
+  background: #00b8d4;
+}
+
+.skills .progress-bar {
+  /* background-color: #149ddd; */
+  background-color: #00b8d4;
+}
+
+a {
+  /* color: #149ddd; */
+  color: #00b8d4;
 }
 /*# sourceMappingURL=layout.css.map */
